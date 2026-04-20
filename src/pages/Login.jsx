@@ -29,7 +29,7 @@ export default function Login() {
   return (
     <div className="login-page" id="login-page">
       <div className="login-card animate-fade-in">
-        <div className="login-icon">🔐</div>
+        <div className="login-icon">T</div>
         <h1>Hoş Geldiniz</h1>
         <p className="subtitle">Techniaa hesabınıza giriş yapın</p>
 

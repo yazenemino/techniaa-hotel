@@ -24,7 +24,7 @@ export default function RoomList({ rooms, hotelId, isLoading }) {
   if (!rooms || rooms.length === 0) {
     return (
       <div className="empty-state">
-        <div className="empty-icon">🏨</div>
+        <div className="empty-icon">--</div>
         <h3>Oda bulunamadı</h3>
         <p>Seçtiğiniz kriterlere uygun oda bulunmamaktadır.</p>
       </div>
@@ -49,7 +49,7 @@ export default function RoomList({ rooms, hotelId, isLoading }) {
             <div className="room-card-info">
               <h3>{room.name}</h3>
               <div className="room-features">
-                <span>👤 {room.personCount} Kişi</span>
+                <span>{room.personCount} Kisi</span>
                 {room.features?.map((f) => (
                   <span key={f}>{f}</span>
                 ))}

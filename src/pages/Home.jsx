@@ -20,7 +20,7 @@ export default function Home() {
     <div id="home-page">
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-badge">✦ PREMIUM KONAKLAMA</div>
+        <div className="hero-badge">PREMIUM KONAKLAMA</div>
         <h1>
           Hayalinizdeki Tatil<br />
           <span className="text-gradient">Techniaa ile Başlıyor</span>

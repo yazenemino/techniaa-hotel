@@ -73,22 +73,22 @@ export default function AdminPanel() {
       {/* Stats Cards */}
       <div className="admin-stats animate-fade-in-delay-1">
         <div className="admin-stat-card">
-          <div className="stat-icon" style={{ background: 'rgba(201, 162, 39, 0.15)', color: '#c9a227' }}>📊</div>
+          <div className="stat-icon" style={{ background: 'rgba(201, 162, 39, 0.15)', color: '#c9a227' }}>#</div>
           <div className="stat-value">{list.length}</div>
           <div className="stat-label">Toplam Rezervasyon</div>
         </div>
         <div className="admin-stat-card">
-          <div className="stat-icon" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b' }}>⏳</div>
+          <div className="stat-icon" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b' }}>...</div>
           <div className="stat-value">{pendingCount}</div>
           <div className="stat-label">Bekleyen</div>
         </div>
         <div className="admin-stat-card">
-          <div className="stat-icon" style={{ background: 'rgba(45, 212, 168, 0.15)', color: '#2dd4a8' }}>✅</div>
+          <div className="stat-icon" style={{ background: 'rgba(45, 212, 168, 0.15)', color: '#2dd4a8' }}>OK</div>
           <div className="stat-value">{confirmedCount}</div>
           <div className="stat-label">Onaylanan</div>
         </div>
         <div className="admin-stat-card">
-          <div className="stat-icon" style={{ background: 'rgba(99, 102, 241, 0.15)', color: '#6366f1' }}>💰</div>
+          <div className="stat-icon" style={{ background: 'rgba(99, 102, 241, 0.15)', color: '#6366f1' }}>TL</div>
           <div className="stat-value">₺{totalRevenue.toLocaleString('tr-TR')}</div>
           <div className="stat-label">Toplam Gelir</div>
         </div>
@@ -116,7 +116,7 @@ export default function AdminPanel() {
           </div>
         ) : list.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-icon">📋</div>
+            <div className="empty-icon">--</div>
             <h3>Rezervasyon bulunamadı</h3>
             <p>Seçili filtreye uygun rezervasyon yok.</p>
           </div>

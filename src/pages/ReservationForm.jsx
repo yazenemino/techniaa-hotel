@@ -268,7 +268,7 @@ export default function ReservationForm() {
       {/* Toast */}
       {toast && (
         <div className={`toast ${toast.type}`} id="reservation-toast">
-          {toast.type === 'success' ? '✅' : '❌'} {toast.message}
+          {toast.message}
         </div>
       )}
     </div>

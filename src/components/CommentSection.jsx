@@ -126,7 +126,7 @@ export default function CommentSection({ hotelId, comments: initialComments }) {
           <div className="comment-actions">
             <div className="file-upload-wrapper">
               <label htmlFor="comment-image">
-                📷 Fotoğraf Ekle
+                Fotograf Ekle
               </label>
               <input
                 type="file"
@@ -162,7 +162,7 @@ export default function CommentSection({ hotelId, comments: initialComments }) {
       <div className="comment-list">
         {comments.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-icon">💬</div>
+            <div className="empty-icon">--</div>
             <h3>Henüz yorum yok</h3>
             <p>İlk yorumu siz yapın!</p>
           </div>

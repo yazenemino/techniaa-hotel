@@ -4,12 +4,12 @@ A modern, premium Hotel Reservation System built with React.js, Redux, and Vite.
 
 ## Features
 
-- 🏨 **Hotel Listing** — Responsive grid with Flexbox, hover animations, and price fallbacks
-- 🔍 **Room Filtering** — Filter by person count with CSS opacity transitions
-- 📅 **Reservation Form** — Date pickers, input validation with regex, and loading states
-- 💬 **Comments & Reviews** — Star ratings, trim validation, image upload with security checks
-- 🛡️ **Authentication** — PrivateRoute guards with login redirect
-- ⚙️ **Admin Panel** — Redux-powered reservation management with status filtering
+- **Hotel Listing** — Responsive grid with Flexbox, hover animations, and price fallbacks
+- **Room Filtering** — Filter by person count with CSS opacity transitions
+- **Reservation Form** — Date pickers, input validation with regex, and loading states
+- **Comments & Reviews** — Star ratings, trim validation, image upload with security checks
+- **Authentication** — PrivateRoute guards with login redirect
+- **Admin Panel** — Redux-powered reservation management with status filtering
 
 ## Tech Stack
 

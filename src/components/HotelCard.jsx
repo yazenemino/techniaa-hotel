@@ -29,7 +29,7 @@ export default function HotelCard({ hotel }) {
       <div className="hotel-card-body">
         <div className="card-title">{hotel.name}</div>
         <div className="card-location">
-          📍 {hotel.location}
+          {hotel.location}
         </div>
         <div className="card-amenities">
           {hotel.amenities?.slice(0, 4).map((amenity) => (

@@ -74,7 +74,7 @@ export default function HotelDetail() {
     return (
       <div className="hotel-detail">
         <div className="empty-state">
-          <div className="empty-icon">🏨</div>
+          <div className="empty-icon">--</div>
           <h3>Otel bulunamadı</h3>
           <p>Bu ID ile eşleşen bir otel mevcut değil.</p>
         </div>
@@ -89,7 +89,7 @@ export default function HotelDetail() {
         <img src={hotel.image} alt={hotel.name} />
         <div className="detail-overlay">
           <h1>{hotel.name}</h1>
-          <p>📍 {hotel.location} &nbsp;|&nbsp; ★ {hotel.rating} ({hotel.reviewCount} değerlendirme)</p>
+          <p>{hotel.location} &nbsp;|&nbsp; {hotel.rating} ({hotel.reviewCount} değerlendirme)</p>
         </div>
       </div>
 
